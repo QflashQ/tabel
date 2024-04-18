@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(230, 212, 230);
+    font-family: Arial, sans-serif;
+  }
+  .formular {
+    padding: 20px;
+    margin: 50px auto;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  h2 {
+    text-align: center;
+    height: 1px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buton {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  label {
+    margin-bottom: none;
+  }
+
+  select {
+    margin-bottom: 10px;
+    width: 40px;
+  }
+
+  input[type=text] {
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  input[type=tel] {
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .checkbox-group {
+    margin-bottom: 10px;
+  }
+  .checkbox-group label {
+    display: block;
+    color: #000000;
+  }
+  .checkbox-group input {
+    margin-right: 5px;
+    
+  }

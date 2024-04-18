@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+<title>Formular Înregistrare</title>
+</head>
+<body>
+    <h2>Înregistrare:</h2>
+<div class="formular">
+  <form>
+    <label for="nume">Nume:</label>
+    <input type="text" id="nume" name="nume" placeholder="Numele">
+
+    <label for="prenume">Prenume:</label>
+    <input type="text" id="prenume" name="prenume" placeholder="Prenumele">
+
+    <label for="telefon">Telefon:</label>
+    <input type="tel" id="telefon" name="telefon" placeholder="Telefon">
+
+    <label for="clasa">Clasa:</label>
+    <select id="clasa" name="clasa">
+      <option value="v">V</option>
+    </select>
+
+    <div class="checkbox-group">
+        <label>Cursul:</label>
+        <label><input type="checkbox" name="curs" value="web"> Dezvoltarea Web</label>
+        <label><input type="checkbox" name="curs" value="mobile"> Aplicații Mobile</label>
+        <label><input type="checkbox" name="curs" value="cpp"> Programarea C/C++</label>
+      </div>
+
+    <button type="submit" class="buton">Inregistrarea</button>
+  </form>
+</div>
+</body>
+</html>
